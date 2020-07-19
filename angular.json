@@ -117,8 +117,16 @@
               "devServerTarget": "image-upload-download:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "image-upload-download"
+    }
+  },
+  "defaultProject": "image-upload-download",
+  "cli": {
+    "analytics": "d35e47c4-a09f-4707-a8c8-2f750fb743a7"
+  }
 }

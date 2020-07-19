@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "airy-sled-238808": {
+      "hosting": {
+        "image-upload-download": [
+          "airy-sled-238808"
+        ]
+      }
+    }
+  }
+}

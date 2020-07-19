@@ -1,3 +1,6 @@
+import { credentials } from '../firebase-credentials';
+
 export const environment = {
-  production: true
+  production: true,
+  firebase: credentials,
 };
