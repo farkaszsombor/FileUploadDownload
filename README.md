@@ -1,3 +1,5 @@
+You need to create a firebase config file named, firebase-credentials.ts in the src folder.
+
 # ImageUploadDownload
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
