@@ -40,7 +40,7 @@
           type="text"
           class="editable"
           value="{{ file.name }}"
-          (change)="onRenameFile(i)"
+          (change)="onRenameFile(i, nameInput.value)"
           #nameInput
         />
         <button

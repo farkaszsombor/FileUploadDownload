@@ -126,8 +126,12 @@ export class SelectImagesModalComponent implements OnInit, OnDestroy {
       });
   }
 
-  onRenameFile(index: number): void {
-    this.fileRenameInProgress[index] = true;
+  onRenameFile(index: number, newName: string): void {
+    if (newName.length > 0) {
+      this.fileRenameInProgress[index] = true;
+    } else {
+      this.fileRenameInProgress[index] = false;
+    }
   }
 
   onCancelButtonClicked(): void {
